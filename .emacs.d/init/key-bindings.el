@@ -41,7 +41,3 @@
 		#'(lambda (regex)
 		    (interactive "sList lines beginning with regexp ")
 		    (occur (concat "^[[:space:]]*" regex))))
-
-
-		     
-
