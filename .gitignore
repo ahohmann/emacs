@@ -3,3 +3,5 @@
 *.class
 *.a
 *.so
+*.elc
+*.pyc

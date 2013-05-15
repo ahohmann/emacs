@@ -1,0 +1,7 @@
+(tool-bar-mode 0)
+(scroll-bar-mode 0)
+(blink-cursor-mode 0)
+(global-font-lock-mode 1)
+(column-number-mode)
+(show-paren-mode 1)
+(set-variable 'fill-column 100)
