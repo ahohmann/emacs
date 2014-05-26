@@ -43,6 +43,14 @@
 	"~/.emacs.d/site-list/yasnippet/snippets"))
 (yas-global-mode 1)
 
+;;; markdown
+(autoload 'markdown-mode "markdown-mode"
+  "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+;;; julia
+(require 'julia-mode)
+
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
@@ -50,6 +58,7 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  '(blink-cursor-mode nil)
+ '(c-offsets-alist (quote ((innamespace . 0))))
  '(column-number-mode t)
  '(show-paren-mode t)
  '(tool-bar-mode nil))
