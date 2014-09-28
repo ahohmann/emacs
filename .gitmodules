@@ -10,3 +10,6 @@
 [submodule ".emacs.d/site-lisp/yasnippet"]
 	path = .emacs.d/site-lisp/yasnippet
 	url = https://github.com/capitaomorte/yasnippet.git
+[submodule ".emacs.d/site-lisp/js2-mode"]
+	path = .emacs.d/site-lisp/js2-mode
+	url = https://github.com/mooz/js2-mode.git

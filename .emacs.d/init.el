@@ -43,6 +43,8 @@
 	"~/.emacs.d/site-list/yasnippet/snippets"))
 (yas-global-mode 1)
 
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+
 ;;; markdown
 (autoload 'markdown-mode "markdown-mode"
   "Major mode for editing Markdown files" t)
