@@ -13,6 +13,7 @@
 ;;----------------------------------------------------------------------
 ;; small module configurations (not worth a separate file in init/)
 
+(setq-default indent-tabs-mode nil)
 (fset 'yes-or-no-p 'y-or-n-p)
 
 (require 'table)
