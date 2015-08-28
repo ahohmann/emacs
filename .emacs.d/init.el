@@ -56,6 +56,10 @@
 ;;; julia
 (require 'julia-mode)
 
+(defun mechanics ()
+  (interactive)
+  (run-scheme
+    "/usr/local/scmutils/mit-scheme/bin/scheme --library /usr/local/scmutils/mit-scheme/lib"))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
